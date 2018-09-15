@@ -1,5 +1,10 @@
 # Cycle 찾기
-n 개의 node로 이루어진 임의의 directed graph가 주어졌을 때, 길이가 m인 cycle을 찾아 출력하는 프로그램을 작성하시오. cycle이 여러 개 있는 경우, 그 중에서 아무거나 출력해도 좋다. * Directed graph 란, 어떤 node A에서 다른 node B로 이동할 수 있는 edge가 존재한다고 해서, B에서 다시 A로 이동할 수 있는 edge가 항상 존재하지는 않는 graph이다. * 이 문제에서의 cycle은 다음 조건을 모두 만족하는 sequence로 정의한다. * 0 ≤ i < m-1 에 해당하는 i에 대해, i번째 node에서 i+1번째 node로 이동하는 edge가 존재해야 한다. * 마지막 node에서 첫번째 node로 이동하는 edge가 존재해야 한다. * 동일한 node가 여러번 sequence에 등장할 수 있다
+n 개의 node로 이루어진 임의의 directed graph가 주어졌을 때, 길이가 m인 cycle을 찾아 출력하는 프로그램을 작성하시오. cycle이 여러 개 있는 경우, 그 중에서 아무거나 출력해도 좋다. 
+* Directed graph 란, 어떤 node A에서 다른 node B로 이동할 수 있는 edge가 존재한다고 해서, B에서 다시 A로 이동할 수 있는 edge가 항상 존재하지는 않는 graph이다. 
+* 이 문제에서의 cycle은 다음 조건을 모두 만족하는 sequence로 정의한다. 
+* 0 ≤ i < m-1 에 해당하는 i에 대해, i번째 node에서 i+1번째 node로 이동하는 edge가 존재해야 한다. 
+* 마지막 node에서 첫번째 node로 이동하는 edge가 존재해야 한다. 
+* 동일한 node가 여러번 sequence에 등장할 수 있다
 
 구현해야 하는 method의 signature는 다음과 같다.
 
